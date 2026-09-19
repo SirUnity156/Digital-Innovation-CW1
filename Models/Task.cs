@@ -2,6 +2,9 @@
 
 namespace Digital_Innovation_CW1.Models;
 
+/**
+    * Represents a task record in the database.
+*/
 public class Task
 {
     public required int Id { get; set; }
