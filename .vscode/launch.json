@@ -1,0 +1,42 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "C#: Launch Startup Project",
+            "type": "dotnet",
+            "request": "launch",
+            "__csdevkitLaunchStartupProject": true
+        },
+        {
+            "name": "C#: DigitalInnovationCW1 [Default Configuration]",
+            "type": "dotnet",
+            "request": "launch",
+            "projectPath": "C:\\Users\\debbi\\OneDrive\\Documents\\University\\Year 3\\Digital Innovation\\DigitalInnovationCW1\\DigitalInnovationCW1.csproj"
+        },
+        {
+            "name": "C#: DigitalInnovationCW1 [http]",
+            "type": "dotnet",
+            "request": "launch",
+            "projectPath": "C:\\Users\\debbi\\OneDrive\\Documents\\University\\Year 3\\Digital Innovation\\DigitalInnovationCW1\\DigitalInnovationCW1.csproj",
+            "launchProfileName": "http",
+            "launchConfigurationId": "http"
+        },
+        {
+            "name": "C#: DigitalInnovationCW1 [https]",
+            "type": "dotnet",
+            "request": "launch",
+            "projectPath": "C:\\Users\\debbi\\OneDrive\\Documents\\University\\Year 3\\Digital Innovation\\DigitalInnovationCW1\\DigitalInnovationCW1.csproj",
+            "launchProfileName": "https",
+            "launchConfigurationId": "https"
+        },
+        {
+            "name": "C#: Debug Active File",
+            "type": "dotnet",
+            "request": "launch",
+            "projectPath": "${file}"
+        }
+    ]
+}
