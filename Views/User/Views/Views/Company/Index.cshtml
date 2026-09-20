@@ -1,0 +1,25 @@
+@{
+    ViewData["Title"] = "Company";
+}
+
+<h1>[@ViewData["Title"] Name]</h1>
+<p>[Company Owner/Admins]</p>
+
+<!-- Doesn't display. Intended to be a sidebar for navigation through company pages -->
+<div id="mySidenav" class="sidenav">
+    <a href="#">About</a>
+    <a href="#">Contact</a>
+</div>
+
+
+<div  style="display: flex; justify-content: space-between;">
+    <div id="rectangle"><a asp-area="" asp-controller="Board" asp-action="ExampleBoard">Board 1</a></div>
+    <div id="rectangle"><a asp-area="" asp-controller="Board" asp-action="ExampleBoard">Board 2</a></div>
+    <div id="rectangle"><a asp-area="" asp-controller="Board" asp-action="ExampleBoard">Board 3</a></div>
+    <div id="rectangle"><a asp-area="" asp-controller="Board" asp-action="ExampleBoard">Board 4</a></div>
+</div>
+
+<br/>
+<div id="rectangle" style="display: flex; justify-content: space-between;">
+    <a asp-area="" asp-controller="Company" asp-action="PeopleSearch">PeopleSearch</a>
+</div>
