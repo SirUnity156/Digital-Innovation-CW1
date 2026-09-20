@@ -1,0 +1,24 @@
+@{
+    ViewData["Title"] = "Company";
+}
+
+<!-- Doesn't display. Intended to be a sidebar for navigation through company pages -->
+<div id="mySidenav" class="sidenav">
+    <p>Company Name</p>
+    <p>Company Owner/Admins</p>
+    <a href="#">About</a>
+    <a href="#">Contact</a>
+</div>
+
+
+<div id="main" style="display: flex; justify-content: space-between;">
+    <a asp-area="" asp-controller="Company" asp-action="">Board 1</a>
+    <a asp-area="" asp-controller="Company" asp-action="">Board 2</a>
+    <a asp-area="" asp-controller="Company" asp-action="">Board 3</a>
+    <a asp-area="" asp-controller="Company" asp-action="">Board 4</a>
+</div>
+
+<br/>
+<div id="rectangle" style="display: flex; justify-content: space-between;">
+    <a asp-area="" asp-controller="Company" asp-action="PeopleSearch">PeopleSearch</a>
+</div>
